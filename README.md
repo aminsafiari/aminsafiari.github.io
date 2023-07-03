@@ -1,2 +1,0 @@
-# aminsafiari.github.io
-Resume
