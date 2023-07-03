@@ -1,0 +1,397 @@
+@font-face {
+    font-family: ubunto;
+    src: url('src/Ubuntu-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202124;
+    font-family: ubunto;
+    display: flex;
+    flex-direction: column;
+    min-height: 78rem;
+}
+
+hr {
+    margin: 0 auto;
+    border-color: #808080;
+    height: 1px;
+}
+
+i.fa {
+    /* color: #BB86FC; */
+    background: linear-gradient(140deg, rgba(103, 52, 219, 1) 0%, rgba(80, 73, 212, 1) 29%, rgba(43, 129, 225, 1) 46%, rgba(34, 142, 228, 1) 59%, rgba(87, 204, 241, 1) 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.pb100 {
+    width: 100%;
+}
+
+.pb80 {
+    width: 80%;
+}
+
+.pb70 {
+    width: 70%;
+}
+
+.pb60 {
+    width: 60%;
+}
+
+.pb50 {
+    width: 50%;
+}
+
+.pb40 {
+    width: 40%;
+}
+
+.label {
+    padding: 3px 5px;
+    background-color: #0db8a4e4;
+    border-radius: 5px;
+    color: black;
+}
+
+.container {
+    width: 98%;
+    padding: 1%;
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.skill-items>div {
+    margin-top: 1rem;
+}
+
+.skill-item-tech {
+    text-align: center;
+    margin-right: .5rem;
+}
+
+.social-items {
+    display: flex;
+}
+
+.social-item-tech {
+    text-align: center;
+    margin-right: .5rem;
+    margin-top: 2rem;
+}
+
+.mydiv {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    animation: myanimation 1s ease-in-out 0s 1 normal;
+    -webkit-animation: myanimation 1s ease-in-out 0s 1 normal;
+}
+
+@keyframes myanimation {
+    0% {
+        left: -500px;
+    }
+    100% {
+        left: 1px;
+    }
+}
+
+.left-side {
+    background-color: #303134;
+    display: inline-block;
+    width: 25%;
+    margin: 0.5%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+.rightDiv {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    animation: myanimation2 1s ease-in-out 0s 1 normal;
+    -webkit-animation: myanimation2 1s ease-in-out 0s 1 normal;
+}
+
+@keyframes myanimation2 {
+    0% {
+        left: 500px;
+    }
+    100% {
+        left: 1 px;
+    }
+}
+
+.right-side {
+    display: inline-block;
+    width: 72%;
+    margin: 0.5%;
+    vertical-align: top;
+}
+
+.right-side section {
+    background-color: #303134;
+    margin-bottom: 2%;
+    border-radius: 3px;
+    padding: 30px;
+}
+
+#profile-box {
+    position: relative;
+}
+
+#profile-box #profile-image {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+}
+
+#profile-box #profile-name {
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    font-size: 21px;
+}
+
+#description-box {
+    padding: 15px;
+}
+
+#description-box ul {
+    list-style: none;
+}
+
+#description-box ul li {
+    margin-bottom: 15px;
+}
+
+#description-box ul li i.fa {
+    color: #BB86FC;
+    font-size: 18px;
+}
+
+#description-box ul li span {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.aside-items {
+    padding: 15px;
+    color: #fff;
+    margin: 5px 0 25px;
+}
+
+.item-title {
+    margin-left: 5px;
+}
+
+.skill-item {
+    margin-top: 15px;
+}
+
+.progress-box {
+    background-color: #eee;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.progress-box .progress-bar {
+    /* background-color: #BB86FC; */
+    background: linear-gradient(114deg, rgba(7, 235, 68, 1) 0%, rgba(31, 175, 162, 1) 25%, rgba(3, 32, 131, 1) 50%, rgba(25, 145, 161, 1) 75%, rgba(20, 117, 153, 1) 100%);
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.head-title {
+    font-size: 32px;
+    color: #fff;
+}
+
+.right-side-item {
+    color: #fff;
+}
+
+.right-side-item h3,
+.right-side-item h4 {
+    margin: 18.5px 0;
+}
+
+.right-side-item p {
+    margin: 15px 0 40px;
+}
+
+.link-style:link {
+    color: #16c9ff;
+    text-decoration: none;
+}
+
+.link-style:hover {
+    color: #0098ca;
+}
+
+.link-style:visited {
+    color: #03aeae;
+}
+
+
+/* a {
+    bottom: 100px;
+    left: 800px;
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 0 20px;
+    color: #03e9f4;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+
+a:hover {
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+}
+
+a span {
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: loding 1s linear infinite;
+    -webkit-animation: loding 1s linear infinite;
+}
+
+@keyframes loding {
+    0% {
+        left: -100%;
+        ;
+    }
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+a span:nth-child(2) {
+    top: -100px;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: loding2 1s linear infinite;
+    animation-delay: 0.25s;
+    -webkit-animation: loding2 1s linear infinite;
+}
+
+@keyframes loding2 {
+    0% {
+        top: -100px;
+    }
+    50%,
+    100% {
+        top: 100%;
+    }
+} */
+
+a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: loding3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes loding3 {
+    0% {
+        right: -100px;
+    }
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+a span:nth-child(4) {
+    bottom: -100px;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: loding4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes loding4 {
+    0% {
+        bottom: -100px;
+    }
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+footer {
+    /* background-color: #BB86FC; */
+    background: radial-gradient(circle, rgba(3, 36, 61, 1) 50%, rgba(15, 219, 189, 1) 100%);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+#footer-logo {
+    margin-left: .5rem;
+}
+
+@media only screen and (max-width:768px) {
+    .left-side {
+        display: block;
+        width: 99%;
+    }
+    .right-side {
+        display: block;
+        width: 99%;
+    }
+}
