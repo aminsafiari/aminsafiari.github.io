@@ -255,44 +255,44 @@ i.fa {
 }
 
 
-/* a {
-    bottom: 100px;
-    left: 800px;
+#demo-project {
+    bottom: 0px;
+    left: -20px;
     position: relative;
     display: inline-block;
-    padding: 25px 30px;
+    padding: 15px 20px;
     margin: 0 20px;
-    color: #03e9f4;
-    font-size: 24px;
+    color: #17c9ae;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
     transition: 0.5s;
     letter-spacing: 4px;
-}
+     border-radius: 8px;
+ }
 
-a:hover {
-    background: #03e9f4;
+#demo-project:hover {
+    background: #17c9ae;
     color: #050801;
-    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+    box-shadow: 0 0 5px #17c9ae, 0 0 25px #17c9ae, 0 0 50px #17c9ae, 0 0 200px #17c9ae;
 }
 
-a span {
+.demo-button {
     position: absolute;
     display: block;
 }
 
-a span:nth-child(1) {
+.demo-button:nth-child(1) {
     top: 0;
     left: 0;
     width: 100%;
     height: 2px;
     background: linear-gradient(90deg, transparent, #03e9f4);
-    animation: loding 1s linear infinite;
-    -webkit-animation: loding 1s linear infinite;
+    animation: loading 1s linear infinite;
 }
 
-@keyframes loding {
+@keyframes loading {
     0% {
         left: -100%;
         ;
@@ -303,18 +303,17 @@ a span:nth-child(1) {
     }
 }
 
-a span:nth-child(2) {
+.demo-button:nth-child(2) {
     top: -100px;
     right: 0;
     width: 2px;
     height: 100%;
     background: linear-gradient(180deg, transparent, #03e9f4);
-    animation: loding2 1s linear infinite;
+    animation: loading2 1s linear infinite;
     animation-delay: 0.25s;
-    -webkit-animation: loding2 1s linear infinite;
 }
 
-@keyframes loding2 {
+@keyframes loading2 {
     0% {
         top: -100px;
     }
@@ -322,19 +321,19 @@ a span:nth-child(2) {
     100% {
         top: 100%;
     }
-} */
+}
 
-a span:nth-child(3) {
+.demo-button:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
     height: 2px;
     background: linear-gradient(270deg, transparent, #03e9f4);
-    animation: loding3 1s linear infinite;
+    animation: loading3 1s linear infinite;
     animation-delay: 0.5s;
 }
 
-@keyframes loding3 {
+@keyframes loading3 {
     0% {
         right: -100px;
     }
@@ -344,17 +343,17 @@ a span:nth-child(3) {
     }
 }
 
-a span:nth-child(4) {
+.demo-button:nth-child(4) {
     bottom: -100px;
     left: 0;
     width: 2px;
     height: 100%;
     background: linear-gradient(360deg, transparent, #03e9f4);
-    animation: loding4 1s linear infinite;
+    animation: loading4 1s linear infinite;
     animation-delay: 0.75s;
 }
 
-@keyframes loding4 {
+@keyframes loading4 {
     0% {
         bottom: -100px;
     }
