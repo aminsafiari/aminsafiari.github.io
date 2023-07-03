@@ -243,6 +243,7 @@ i.fa {
 .link-style:link {
     color: #16c9ff;
     text-decoration: none;
+    margin-left: .7rem;
 }
 
 .link-style:hover {
